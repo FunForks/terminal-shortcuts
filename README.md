@@ -143,6 +143,12 @@ undefined
 
 11. To create a multiline string in JavaScript, you can use `backticks` (`` ` ``) and [string templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
 
-12. To decide if this exercise was worth the time, note what time it was when you decide that you had done all the work on your script that it needed. Subtract from that the time you noted down in step `0`, and consult [Randall Munroe's table](https://explainxkcd.com/1205) to see how often you must use a shortcut to regain the time you have invested.
+12. You will need to add the code for LINE FEED at the end of the command, to tell the Terminal to simulate pressing the Enter key.
+
+    `+ "\\u000A\""`
+    
+    See [here for more details](https://en.wikipedia.org/wiki/Unicode_control_characters#Category_"Cc"_control_codes_(C0_and_C1)).
+
+13. To decide if this exercise was worth the time, note what time it was when you decide that you had done all the work on your script that it needed. Subtract from that the time you noted down in step `0`, and consult [Randall Munroe's table](https://explainxkcd.com/1205) to see how often you must use a shortcut to regain the time you have invested.
 
 Remember, though, that you also improved your JavaScript skills during this time. So that's an added benefit.
